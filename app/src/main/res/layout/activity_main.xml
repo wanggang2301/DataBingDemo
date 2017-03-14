@@ -7,7 +7,9 @@
 
         <import type="android.view.View" />
 
-        <import type="android.databinding.ObservableArrayMap" />
+        <!--
+                <import type="android.databinding.ObservableArrayMap" />
+        -->
 
         <variable
             name="person"
@@ -15,7 +17,7 @@
 
         <variable
             name="mainPresenter"
-            type="com.wg.databingdemo.MainPresenter" />
+            type="com.wg.databingdemo.presenter.MainPresenter" />
 
 
     </data>

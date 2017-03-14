@@ -1,6 +1,8 @@
-package com.wg.databingdemo;
+package com.wg.databingdemo.presenter;
 
 import android.view.View;
+
+import com.wg.databingdemo.IMainView;
 
 /**
  * @author: Wangg
@@ -11,6 +13,7 @@ import android.view.View;
 
 public class MainPresenter {
     private IMainView iMainView;
+
     public MainPresenter(IMainView iMainView) {
         this.iMainView = iMainView;
     }

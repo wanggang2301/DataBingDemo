@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.wg.databingdemo.databinding.ActivityMainBinding;
+import com.wg.databingdemo.presenter.MainPresenter;
 
 public class MainActivity extends AppCompatActivity implements IMainView {
 
@@ -73,5 +74,6 @@ public class MainActivity extends AppCompatActivity implements IMainView {
     @Override
     public void onClickDemo3(View view) {
         Toast.makeText(getApplicationContext(), "onClickDemo3", Toast.LENGTH_SHORT).show();
+        startActivity(new Intent(this, ThirdActivity.class));
     }
 }
